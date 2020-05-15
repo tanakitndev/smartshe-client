@@ -1,0 +1,268 @@
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif; */
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.content-wrapper {
+  background-color: #475468 !important;
+}
+
+
+h4 {
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  text-align: center;
+  color: lightgreen;
+  margin-top: 1rem !important;
+}
+/* IP Cameara */
+.video-title {
+  font-size: 14px;
+}
+
+.border-video{
+  border: 1px solid white;
+}
+.camera-display-full {
+  width: 100%;
+  height: 80vh;
+  border: 1px solid white;
+}
+
+@media only screen and (max-width: 600px) {
+  .camera-display-full {
+    width: 100%;
+    height: 50vh;
+    border: 1px solid white;
+  }
+}
+.camera-display-container{
+  min-width: 163px;
+  width: 33%;
+  height: 160px;
+  border: 1px solid white;
+}
+.camera-display {
+  width: 100%;
+  height: 160px;
+  /* border: 1px solid white; */
+  /* outline: 2px solid red; */
+}
+
+.camera-box-container{
+  width: 33.33%;
+}
+.camera-box{
+  outline: 1px solid white;
+}
+.box-container {
+  width: 100%;
+  height: 50vh;
+  overflow: scroll;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+/* .camera-display:nth-child(1) {
+  width: 33%;
+  height: 200px;
+  border: 1px solid white;
+  outline: 5px solid red;
+} */
+/* Table Environments */
+.table-env,
+.table-work-area td,th {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.table-env th {
+  color: #ffffff;
+}
+.table-env td {
+  color: lightgreen;
+}
+/* Work Area */
+.table-work-area th {
+  color: #ffffff;
+}
+.table-work-area td {
+  color: lightgreen;
+}
+.th-work-area {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+/* control-sidebar */
+.control-sidebar{
+  background-color: rgba(45, 45, 45, 0.9);
+  overflow: scroll;
+}
+
+
+.selection-cell-header input{
+  width: 20px;
+  height: 20px;
+}
+
+td.selection-cell input {
+  width: 20px;
+  height: 20px;
+}
+
+
+.nav-link{
+  transition: all 0.2s;
+}
+
+.alert-log{
+  border-bottom: 1px solid #ffffff;
+}
+
+td.danger{
+  transition: all 0.5s;
+  box-shadow: 0 0 0 3px rgba(255, 0, 0, 0.5);
+}
+
+td{
+  transition: all 0.5s;
+}
+
+.report-title{
+  font-size: 20px;
+  text-align: center;
+}
+
+.circle-hotwork{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  color: rgba(45, 45, 45,0.7);
+  background-color: #fffa65;
+  border: 6px solid #bdc3c7;
+  margin: auto;
+  margin-bottom: 10px;
+  transition: all 0.25s;
+}
+.circle-heightwork{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  color: rgba(45, 45, 45,0.7);
+  background-color: #32ff7e;
+  border: 6px solid #bdc3c7;
+  margin: auto;
+  margin-bottom: 10px;
+  transition: all 0.25s;
+}
+.circle-confinework{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  color: rgba(45, 45, 45,0.7);
+  background-color: #ffb8b8;
+  border: 6px solid #bdc3c7;
+  margin: auto;
+  margin-bottom: 10px;
+  transition: all 0.25s;
+}
+.circle-card {
+  padding-top: 16px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.circle-card span {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.form-check{
+  margin-bottom: 0.5rem;
+}
+.form-check-input{
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.form-check-label{
+  padding-left: 0.75rem;
+}
+
+@media only screen and (max-width: 1366px) {
+  
+  .table-env,
+  .table-work-area td,th {
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+
+  .circle-hotwork{
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+  }
+  .circle-heightwork{
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+  }
+  .circle-confinework{
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+  }
+  .circle-card {
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .circle-card span {
+    font-size: 18px;
+    font-weight: 700;
+  }
+}

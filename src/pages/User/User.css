@@ -1,0 +1,14 @@
+.filter-label {
+  padding: 0;
+  margin: 0;
+  flex: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.page-item.active .page-link {
+  z-index: 3;
+  color: #fff;
+  background-color: #90abd3;
+  border-color: #90abd3;
+}
